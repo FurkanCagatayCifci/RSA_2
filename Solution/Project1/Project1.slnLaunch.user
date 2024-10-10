@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "MVC+API",
+    "Projects": [
+      {
+        "Path": "..\\..\\WebAPI\\WebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "..\\..\\WebMVC\\WebMVC.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  },
+  {
+    "Name": "API",
+    "Projects": [
+      {
+        "Path": "..\\..\\WebAPI\\WebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Projects": [
+      {
+        "Path": "..\\..\\WebMVC\\WebMVC.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]
